@@ -4,9 +4,16 @@ import { Server } from 'socket.io';
 import { Game } from './game/gameLogic.js';
 import swaggerUi from 'swagger-ui-express';
 import swaggerSpec from './swagger.js';
+import cors from 'cors';
 
 const app = express();
 const server = createServer(app);
+
+app.use(cors({
+    origin: "*",
+    methods: ["GET", "POST"],
+    credentials: true,
+}));
 
 const io = new Server(server, {
     cors: {

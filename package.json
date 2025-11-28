@@ -21,6 +21,7 @@
   },
   "homepage": "https://github.com/paulo-campos-57/backend-pong#readme",
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^5.1.0",
     "socket.io": "^4.8.1",
     "swagger-jsdoc": "^6.2.8",
