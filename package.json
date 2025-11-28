@@ -1,0 +1,26 @@
+{
+  "name": "backend-pong",
+  "version": "1.0.0",
+  "description": "Repositório destinado à disciplina de FrontEnd, 7° Período, CESAR School",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/paulo-campos-57/backend-pong.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/paulo-campos-57/backend-pong/issues"
+  },
+  "homepage": "https://github.com/paulo-campos-57/backend-pong#readme",
+  "dependencies": {
+    "express": "^5.1.0",
+    "socket.io": "^4.8.1",
+    "swagger-jsdoc": "^6.2.8",
+    "swagger-ui-express": "^5.0.1"
+  }
+}
