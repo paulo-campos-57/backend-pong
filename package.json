@@ -1,6 +1,7 @@
 {
   "name": "backend-pong",
   "version": "1.0.0",
+  "type": "module",
   "description": "Repositório destinado à disciplina de FrontEnd, 7° Período, CESAR School",
   "main": "index.js",
   "scripts": {
