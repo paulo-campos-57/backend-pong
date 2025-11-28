@@ -25,7 +25,7 @@ const options = {
                 description: 'Servidor de Desenvolvimento'
             },
             {
-                url: 'https://url.onrender.com',
+                url: 'https://backend-pong.onrender.com',
                 description: 'Servidor de Produção'
             }
         ],
